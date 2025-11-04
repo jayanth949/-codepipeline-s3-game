@@ -7,15 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cardArray = [
         { name: 'card1', img: 'drake.png' },
-        { name: 'card1', img: 'images/distracted.png' },
-        { name: 'card2', img: 'images/drake.png' },
-        { name: 'card2', img: 'images/drake.png' },
-        { name: 'card3', img: 'images/fine.png' },
-        { name: 'card3', img: 'images/fine.png' },
-        { name: 'card4', img: 'images/rollsafe.png' },
-        { name: 'card4', img: 'images/rollsafe.png' },
-        { name: 'card5', img: 'images/success.png' },
-        { name: 'card5', img: 'images/success.png' },
+        { name: 'card1', img: 'distracted.png' },
+        { name: 'card2', img: 'drake.png' },
+        { name: 'card2', img: 'drake.png' },
+        { name: 'card3', img: 'fine.png' },
+        { name: 'card3', img: 'fine.png' },
+        { name: 'card4', img: 'rollsafe.png' },
+        { name: 'card4', img: 'rollsafe.png' },
+        { name: 'card5', img: 'success.png' },
+        { name: 'card5', img: 'success.png' },
         // ...add more pairs as needed
     ];
 
@@ -75,4 +75,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     startButton.addEventListener('click', createBoard);
 });
+
 
